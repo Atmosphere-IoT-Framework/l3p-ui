@@ -8,7 +8,7 @@ module.exports = {
     externals: {
         // global app config object
         config: JSON.stringify({
-            apiUrl: 'http://atmosphere/v1' 
+            apiUrl: 'http://api:8084/v1' 
         })
     } 
   }
