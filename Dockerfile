@@ -21,5 +21,6 @@ EXPOSE ${YOUR_APP_WEB_HTTP_PORT}
 
 USER node
 
+
 #Run container in server mode
 CMD ["npm", "run", "serve"]
