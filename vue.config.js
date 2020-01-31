@@ -8,7 +8,8 @@ module.exports = {
     externals: {
         // global app config object
         config: JSON.stringify({
-            apiUrl: 'http://localhost:8084/v1'  
+            //apiUrl: 'http://localhost:8084/v1'
+            apiUrl: process.env.API_URL + '/v1'  
         })
     } 
   }
